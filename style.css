@@ -1,0 +1,10 @@
+* {
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.center {
+  text-align: center;
+}

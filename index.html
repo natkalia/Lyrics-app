@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pl PL">
+<head>
+  <meta charset="utf-8">
+  <title>Lyrics</title>
+  <link rel="stylesheet" href="style.css" type="text/css"/>
+</head>
+
+<body>
+  <div class="wrapper">
+    <div class="center">    
+      <h1>Lyrics search: </h1>
+
+      <p>E.g.: Queen "Radio Ga Ga", Wilki - "Son Of The Blue Sky"</p>
+
+      <form class="form">
+
+        <label>Artist:</label>
+        <input name = "artist" class = "artist" type = "text" value="" required/>
+        
+        <label>Song title:</label>
+        <input name = "title" class = "title" type = "text" value="" required/>
+
+        <button class = "button" type = "submit">Search now!</button>
+
+      </form>
+
+      <h1 class="response-title"></h1> 
+      <div class="response-lyrics"></div> 
+
+    </div>
+  </div>
+  
+  <script src="app.js"></script>
+  
+</body>
+</html>
